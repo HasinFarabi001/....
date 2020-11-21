@@ -11,4 +11,5 @@ for(i = 2;i < 25;i++){
 for(i = 0;i < 25;i++){
     printf("%d\n",fibonacci[i]);
 }
-ret
+return 0;
+}
