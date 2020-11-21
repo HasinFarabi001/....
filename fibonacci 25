@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main(){
+int fibonacci[25];
+fibonacci[0]  = 0;
+fibonacci[1]  = 1;
+int i ;
+for(i = 2;i < 25;i++){
+    fibonacci[i]=fibonacci[i-1] + fibonacci[i - 2]; 
+}
+for(i = 0;i < 25;i++){
+    printf("%d\n",fibonacci[i]);
+}
+ret
